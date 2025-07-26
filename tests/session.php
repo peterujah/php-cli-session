@@ -16,14 +16,14 @@ if (!session_start()) {
     exit(1);
 }
 
-if (!isset($_SESSION['user'])) {
+if (!isset($_SESSION['cli_user'])) {
     $_SESSION['cli_data'] = 'This is data from CLI session.';
-    $_SESSION['user'] = 'peter';
+    $_SESSION['cli_user'] = 'peter';
 
     echo "Registered new session ID: {$sessionId}\n";
     echo "Run: 'php session.php' {$sessionId} to access this session.\n";
 } else {
     echo "Resumed session with ID: {$sessionId}\n";
-    echo "User: {$_SESSION['user']}\n";
+    echo "User: {$_SESSION['cli_user']}\n";
     echo "Data: {$_SESSION['cli_data']}\n";
 }
