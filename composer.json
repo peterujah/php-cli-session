@@ -1,0 +1,39 @@
+{
+    "name": "peterujah/php-cli-session",
+    "type": "library",
+    "description": "A PHP library for managing and inspecting CLI session environments across platforms.",
+    "keywords": [
+        "cli",
+        "php",
+        "session",
+        "terminal",
+        "shell",
+        "php cli tools",
+        "system info",
+        "command line",
+        "php stream",
+        "ansi",
+        "color"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ujah Chigozie",
+            "email": "ujahchigozie@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Peterujah\\Cli\\System\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "prefer-stable": true
+}
