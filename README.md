@@ -53,7 +53,7 @@ session_id($sessionId);
 session_start();
 ```
 
-See working example [CLI Demo](text)
+See working example [CLI Demo](https://github.com/peterujah/php-cli-session/tree/main/tests)
 
 ---
 
