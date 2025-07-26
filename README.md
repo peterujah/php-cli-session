@@ -40,7 +40,7 @@ composer install peterujah/php-cli-session
 ### Initialize CLI streams
 
 ```php
-use PeterUjah\Cli\System\Session;
+use Peterujah\Cli\System\Session;
 
 Session::init(); // Optional if constructor is called
 ```
@@ -53,7 +53,7 @@ session_id($sessionId);
 session_start();
 ```
 
-See working example [CLI Demo](https://github.com/peterujah/php-cli-session/tree/main/tests)
+See working example [CLI Demos](https://github.com/peterujah/php-cli-session/tree/main/tests)
 
 ---
 
