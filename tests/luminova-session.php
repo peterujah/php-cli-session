@@ -1,6 +1,5 @@
 #!/usr/bin/env php
 <?php
-
 use PeterUjah\Cli\System\Session;
 use Luminova\Boot;
 
