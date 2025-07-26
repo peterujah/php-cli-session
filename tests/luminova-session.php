@@ -1,6 +1,6 @@
 #!/usr/bin/env php
 <?php
-use PeterUjah\Cli\System\Session;
+use Peterujah\Cli\System\Session;
 use Luminova\Boot;
 
 // Load framework bootloader.
@@ -25,7 +25,7 @@ if (!isset($_SESSION['user'])) {
     $_SESSION['user'] = 'peter';
 
     echo "Registered new session ID: {$sessionId}\n";
-    echo "Run: php script2.php {$sessionId} to access this session.\n";
+    echo "Run: 'php luminova-session.php' {$sessionId} to access this session.\n";
 } else {
     echo "Resumed session with ID: {$sessionId}\n";
     echo "User: {$_SESSION['user']}\n";
