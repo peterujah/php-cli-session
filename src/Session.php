@@ -4,10 +4,10 @@
  *
  * @package php-cli-session
  * @author Ujah Chigozie Peter
- * @license See LICENSE file 
+ * @license See LICENSE file
  * @link https://github.com/peterujah/php-cli-session
  */
-namespace App\Utils\Cli;
+namespace Peterujah\Cli\System;
 
 use \Throwable;
 use \RuntimeException;
