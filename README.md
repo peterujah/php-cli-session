@@ -30,7 +30,7 @@ Designed for cross-platform compatibility (Linux, macOS, Windows) with focus on 
 Install via Composer PHP package manager.
 
 ```bash
-composer install peterujah/php-cli-session
+composer require peterujah/php-cli-session
 ```
 
 ---
